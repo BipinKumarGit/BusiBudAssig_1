@@ -1,0 +1,87 @@
+/* Layout Properties */
+ /* top: 111px;
+left: 249px;
+width: 782px;
+height: 26px; */
+/* UI Properties */
+/* opacity: 1;  */
+.artboard-1{
+top: 0px;
+left: 00px;
+
+width: 1280px;
+height: 5339px;
+color: red;
+
+background: #FFFFFF 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.nav {
+top: 111px;
+left: 249px;
+width: 802px;
+height: 46px;
+opacity: 1;
+}
+.artboard{
+    top: 0px;
+    left: 0px;
+    width: 1280px;
+    height: 5339px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+.nav-item{
+    top: 111px;
+left: 986px;
+width: 45px;
+height: 26px;
+/* UI Properties */
+text-align: left;
+font: normal normal 600 19px/26px Segoe UI;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+.nav-list{
+top: 122px;
+left: 515px;
+width: 10px;
+height: 8px;
+/* UI Properties */
+border: 1px solid #0F0F0F;
+opacity: 1;
+}
+.apper-header{
+top: 254px;
+left: 121px;
+width: 548px;
+height: 108px;
+/* UI Properties */
+text-align: left;
+font: normal normal 900 40px/54px Nunito Sans;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+.apperance{
+    top: 382px;
+left: 121px;
+width: 520px;
+height: 120px;
+text-align: left;
+font: normal normal normal 18px/24px Nunito Sans;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+.mask-group {
+    top: 156px;
+left: 754px;
+width: 509px;
+height: 518px;
+/* UI Properties */
+opacity: 1;
+}
