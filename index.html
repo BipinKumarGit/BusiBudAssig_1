@@ -1,46 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Multiple Navbars</title>
     <!-- Include Bootstrap CSS -->
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
-        /* Add custom CSS styles here if needed */
+        .imgUrl {
+            background-image: url('https://ibb.co/mFcMRRF');
+        }
     </style>
 </head>
+
 <body>
-     
-    <nav class="navbar navbar-light bg-light nav">
-        <div class="container-fluid  ">
-          <a class="navbar-brand nav-item">Navbar</a>
-          <a class="navbar-brand nav-item">Navbar2</a>
-          <a class="navbar-brand nav-item">Navbar3</a>
-          <a class=" navbar-brand nav-item">Navbar4</a>
-          <a class="navbar-brand nav-item">Navbar5</a>
-          <a class="navbar-brand nav-item">Navbar6</a>
-          <a class="navbar-brand nav-item">Navbar7</a>
-          <a class="navbar-brand nav-item">Navbar8</a>
-        </div>
-        <section class="container mt-5 apperance">
-            <div class="row">
-                <div class="col-md-6">
-                    <img src="your-image.jpg" alt="Image" class="mask-group">
-                </div>
-                <div class="col-md-6">
-                    <h1 class="apper-header" >Lorem ipsum dolor sit amet, consectetur adipiscing elit</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed commodo est.
-                        Pellentesque eu placerat mauris. Etiam ut maximus ante. Suspendisse varius dolor nec bibendum dignissim. 
-                        Proin in diam a justo sollicitudin mattis eu sagittis nunc..</p>
-                    <a href="#" class="btn btn-primary">Learn More</a>
-                </div>
-                
+
+    <div class="container mt-5">
+
+        <!-- As a heading -->
+        <nav class="navbar bg-body-tertiary border-bottom">
+            <div class="row m-auto ">
+                <h1 class="my-5 ">invalup</h1>
             </div>
-        </section>
-</nav>
-    
+            <div class="container-fluid">
+                <div class="row flex-start ">
+                    <div class="col">
+                        <span class="navbar-brand mb-0 h1">Nav 1</span>
+                    </div>
+                    <div class="col">
+                        <span class="navbar-brand mb-0 h1">Nav 2</span>
+
+                    </div>
+                    <div class="col">
+                        <span class="navbar-brand mb-0 h1">Nav 3</span>
+
+                    </div>
+                    <div class="col">
+                        <span class="navbar-brand mb-0 h1">Nav 4 </span>
+                    </div>
+                    <div class="col">
+                        <span class="navbar-brand mb-0 h1">Nav 5</span>
+                    </div>
+                    <div class="col">
+                        <span class="navbar-brand mb-0 h1">Nav 6</span>
+
+                    </div>
+                    <div class="col">
+
+                        <span class="navbar-brand mb-0 h1">Nav 7</span>
+                    </div>
+                    <div class="col">
+                        <span class="navbar-brand mb-0 h1">Nav 8</span>
+
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+
+        <div class="row">
+            <div class="col-7 py-3 ">
+                <div class="p-5 mb-4 bg-light rounded-3">
+                    <div class="container-fluid py-3">
+                        <h1 class="display-5 text-bold ">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                        <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
+                        <button class="btn btn-primary btn-lg rounded-pill my-5" type="button">Example button</button>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="col-5 imgUrl">
+                <a href="https://ibb.co/mFcMRRF"><img src="https://i.ibb.co/7N16SSN/img.png" alt="img" border="0"></a>
+
+            </div>
+
+        </div>
+    </div>
+
 
     <!-- Repeat the above code to create Navbar 4 to Navbar 8 -->
 
@@ -49,4 +88,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
 </html>
